@@ -1,0 +1,92 @@
+var Text = new Object();
+Text.WebPart = function () { };
+Text.WebPart.NewsHeader = "News Highlights";
+Text.WebPart.NewsMonths = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+
+Text.Common = function () { };
+Text.Common.LocalTimeString = "Local Time"; 
+Text.Common.LocalTimeHTML = "<span> {0} </span> : <span id='time'>{1}</span>"; //{0} is replaced by LocalTime string and {1} local time
+Text.Common.OtherLangString = "عربي";
+Text.Common.eServices = "e-Services";
+Text.Common.eServicesDescription = "Fujairah holds a unique position in the UAE.";
+
+
+Text.Common.PrayerTimeTitle = "Prayer Timings";
+Text.Common.PrayerTime = ["Fajr", 'Sunrise', "Dhuhr", "Asr", "Maghrib", "Isha"];
+Text.Common.eServicesDescription = "Fujairah holds a unique position in the UAE.";
+Text.Common.ReadMore = "Read more";
+Text.Common.eServicesViewDetails = "View Details";
+Text.Common.VideoGalleryTitle = "Video Library";
+Text.Common.ViewAll = "View All";
+Text.Common.Home = "Home";
+Text.Common.GovtPortalTitle = "Other Government Portals";
+Text.Common.ImageGalleryTitle = "Image Gallery";
+
+Text.Common.FeedbackTitle = "Give us your Feedback";
+Text.Common.FeedbackThank = "Thank Your Feedback!";
+Text.Common.FeedbackPargaraph = "Your valuable feedback is important for us to serve you better.";
+
+Text.Common.PublicHolidayTitle = "Public Holidays";
+
+Text.Common.ServiceDirectoryDescription = "To facilitate the customers’ transactions at Ministry of Community Development and to save time and effort, Ministry of Community Development website provides all forms and applications for any service to be filled and sent directly by simple click, in addition, to explaining and describing the electronic service as per classification.";
+Text.Common.ServiceDirectoryPlaceholder = "Keyword and Department";
+
+Text.Common.ServiceDescription = "Service Description";
+Text.Common.ServiceRequirements = "Service Requirements";
+Text.Common.ServiceFees = "Service Fees";
+Text.Common.StartService = "Start Service";
+Text.Common.ServicesHeader = ["Department", "Service", "Category"];
+
+Text.Common.DaySpace = "Date : ";
+Text.Common.Time = "Time : ";
+Text.Common.Venue = "Venue : ";
+
+Text.Common.AccordianTitle = "Title";
+Text.Common.AccordianArea = "Area";
+Text.Common.AccordianAddress = "Address";
+Text.Common.AccordianCategory = "Category";
+Text.Common.AccordianGender = "Gender";
+Text.Common.AccordianPhone = "Phone";
+Text.Common.AccordianFax = "Fax";
+Text.Common.AccordianEmail = "Email";
+Text.Common.AccordianWebsite = "Website";
+
+Text.Common.PreSchoolTitle = "Pre School";
+Text.Common.publicSchoolsTitle = "Public Schools";
+Text.Common.privateSchoolsTitle = "Private Schools";
+Text.Common.universitiesTitle = "Universities in Fujairah";
+Text.Common.centersTitle = "Centers";
+Text.Common.hospitalsTitle = "Health Facilities";
+
+Text.Common.hospitalsHeaderContent = "This section is your guide to public healthcare and medical treatment in Fujairah Emirate. Find useful information on all the healthcare facilities in the Emirate."
+    + "Read advice on nutrition and disease and check the guidelines on medical licensing for professionals working in the healthcare sector.";
+
+Text.Common.introNextLabel = 'Next →';
+Text.Common.introSkipLabel = 'Skip';
+Text.Common.introPrevLabel = '← Back';
+Text.Common.introDoneLabel = 'Done';
+Text.Common.introLogo = "<h5>Welcome to Fujairah Government Website</h5><p>This is an intro tour to help you recognize the website content, so that you get better benefit from it.</p>";
+Text.Common.introPersonalization = "<h5>Personalization</h5><p>You can utilize important features like personalizing your profile, listening to voice files, search through the as well as changing the website theme color. also the Sign Language feature enable people of determination to understand the website content.</p>";
+Text.Common.introMainMenu = "<h5>Main Menu</h5><p>You can view the latest events in Fujairah</p>";
+Text.Common.introMainBanner = "<h5>Main Banner</h5><p>You can see the latest Fujairah related announcements and have fast access links like Enquiry Services.</p>";
+Text.Common.introServicesSection = "<h5>Services Section</h5><p>You can view the service directory, sign in to e-services and the most used services.</p>";
+Text.Common.introNewsSection = "<h5>News Section</h5><p>You can view latest Fujairah news highlights.</p>";
+Text.Common.introVideoLibrary = "<h5>Video Library</h5><p>You can view  latest Fujairah videos.</p>";
+Text.Common.introPhotogallery = "<h5>Image Gallery</h5><p>You can view  latest Fujairah photos.</p>";
+Text.Common.introImportantLinks = "<h5>Important Links</h5><p>You can view Important Fujairah Government Links.</p>";
+Text.Common.introOtherGovernmentPortals = "<h5>Other Government Portals</h5><p>You can view Fujairah Other Government Portals.</p>";
+Text.Common.introFooter = "<h5>Footer</h5> <p>You can access Quick Common Links from the footer</p>";
+Text.Common.ByMonth = "By Month";
+Text.Common.ByYear = "By Year";
+Text.Common.ByKeywords = "Search by keywords";
+Text.Common.NoResult = "No result found.";
+
+Text.Common.News = "News";
+Text.Common.Photos = "Photos";
+Text.Common.Videos = "Videos";
+
+Text.Common.Previous = "Previous";
+Text.Common.Next = "Next";
+
+Text.Common.EventsMonths = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+
